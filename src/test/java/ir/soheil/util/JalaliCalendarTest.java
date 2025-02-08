@@ -1,16 +1,11 @@
 package ir.soheil.util;
 
 import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
+
 public class JalaliCalendarTest {
-
-    @Test
-    public void gregorianToJalaliTest() {
-        JalaliCalendar.gregorianToJalali()
-    }
 
     @Test
     public void jalaliToGregorianTest() {
